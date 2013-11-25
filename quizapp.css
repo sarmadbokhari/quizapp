@@ -1,0 +1,227 @@
+/* header */
+
+header {
+	position: fixed;
+	top: 0;
+	padding-top: 20px;
+	width: 100%;
+	height: 60px;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #2772A5;
+	z-index: 10;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 32px;
+	font-weight: 200;
+	word-spacing: 5px;
+
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+#question-count {
+	display: inline-block;
+	float: right;
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	margin-top: 10px;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+/* body */
+#question {
+	margin-top: 150px;
+}
+
+#cover {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+#cover img {
+	width: 300px;
+}
+
+#cover p {
+	font-size: 16px;
+	position: absolute;
+	left: 110px;
+	top: 200px;
+	color: #BBB;
+}
+
+#title {
+	font-size: 40px;
+	line-height: 45px;
+	margin-bottom: 10px;
+}
+
+#starring {
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+#review {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 20px;
+}
+
+#cover, #starring, #title {
+	cursor: pointer;
+}
+
+.highlight {
+	border-bottom: 1px dashed #979797;
+	color: #BBB;
+}
+
+/* controls */
+#controls {
+	clear: left;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#message {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+/* button styles */
+button {
+	padding: 10px 16px;
+	background-color: #4EA3C4;
+	color: #FFF;
+	border: 0;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+button:hover {
+	background-color: #2772A5;
+}
+
+button:active {
+	background-color: #000;
+}
+
+button:focus {
+	outline: 0;
+}
+
+/* radio input */
+
+label {
+	cursor: pointer;
+}
+
+label input {
+	display: none;
+}
+
+input:checked + img {
+	border: 2px solid #FFF000;
+}
+
+/* other */
+body {
+	background-color: #FFF;
+	color: #222020;
+
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+}
+
+i {
+	font-style: italic;
+}
+
+.shadow-box {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.warning {
+	color: #cc3333;
+}
+
+.success {
+	color: #1BAB13;
+}
+
+.checkmark:before {
+	content: "\2713";
+	color: #1BAB13;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.xmark:before {
+	content: "\2718";
+	color: #cc3333;
+	font-size: 20px;
+	margin-right: 8px;
+}
+
+/* movie selector */
+
+#movie-selector {
+	display: none;
+}
+
+#book-selector p {
+	color: #FFF;
+	text-align: center;
+}
+
+#choices {
+	margin-top: 110px;
+}
+
+#choices img {
+	height: 180px;
+	margin: 10px;
+}
+
+/* results */
+
+#results {
+	color: #FFF;
+	font-size: 20px;
+	text-align: center;
+	min-height: 600px;
+	display: none;
+}
+
+#results:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#results p {
+	font-family: "Lato", san-serif;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
